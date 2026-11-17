@@ -666,3 +666,99 @@ a:hover {
 
 .callout-container, .graphic-container { clear:left; }
 
+/* Team page */
+.team-intro {
+	margin: 0 0 18px;
+	font-size: 14px;
+}
+.team-section {
+	margin: 24px 0 0;
+}
+.team-section h2 {
+	margin: 0 0 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8b5e30;
+}
+.team-subsection {
+	margin: 20px 0 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #422100;
+}
+.team-grid {
+	margin: 0 -8px;
+	font-size: 0;
+}
+.team-card {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: calc(50% - 18px);
+	min-height: 190px;
+	margin: 0 8px 16px;
+	padding: 14px;
+	border: 1px solid #d9c3a9;
+	border-radius: 4px;
+	background: #fffaf4;
+	font-size: 14px;
+}
+.team-card-header {
+	display: table;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.team-avatar {
+	display: table-cell;
+	width: 42px;
+	height: 42px;
+	padding-right: 10px;
+	vertical-align: middle;
+	color: #fff7ee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 42px;
+	text-align: center;
+	background: #8b5e30;
+	border-radius: 50%;
+}
+.team-card-heading {
+	display: table-cell;
+	vertical-align: middle;
+}
+.team-card h4 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 1.2;
+	color: #422100;
+}
+.team-card .team-role {
+	margin: 3px 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #784e23;
+}
+.team-card p {
+	margin: 5px 0;
+	line-height: 1.35;
+}
+.team-card .team-label {
+	margin-top: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: .03em;
+	text-transform: uppercase;
+	color: #8b5e30;
+}
+.team-card .team-meta {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #6b6259;
+}
+@media only screen and (max-width: 620px) {
+	.team-card { width: calc(100% - 18px); }
+}
+
